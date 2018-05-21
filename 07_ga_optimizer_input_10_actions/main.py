@@ -7,7 +7,7 @@ from tradingrrl import TradingRRL
 
 def main():
 
-    fname = "../data/USDJPY30.csv"
+    fname = r"../data/USDJPY30.csv"
     init_t = 6000
 
     T = 1000
@@ -165,7 +165,7 @@ def ga_fit(_rrl, min_ind, max_ind, random_state, nind, ngen):
 
     def mutUniformDbl(individual, min_ind, max_ind, indpb):
         size = len(individual)
-        for i, min, max  in zip(xrange(size), min_ind, max_ind):
+        for i, min, max  in zip(range(size), min_ind, max_ind):
             if random.random() < indpb:
                 individual[i] = random.uniform(min, max)
         return individual,

@@ -30,7 +30,7 @@ def main():
 
     # Plot results.
     # Training for initial term T.
-    plt.plot(range(len(rrl.epoch_S)),rrl.epoch_S)
+    plt.plot(list(range(len(rrl.epoch_S))),rrl.epoch_S)
     plt.title("Sharp's ratio optimization")
     plt.xlabel("Epoch times")
     plt.ylabel("Sharp's ratio")

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "main.py", line 202, in <module>
+    main()
+  File "main.py", line 22, in main
+    ini_rrl.load_csv(fname)
+  File "tradingrrl.pyx", line 67, in tradingrrl.TradingRRL.load_csv
+    return self.crrl.load_csv(fname)
+  File "stringsource", line 15, in string.from_py.__pyx_convert_string_from_py_std__in_string
+TypeError: expected bytes, str found

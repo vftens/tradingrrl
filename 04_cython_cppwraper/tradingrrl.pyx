@@ -63,7 +63,7 @@ cdef class TradingRRL(object):
         del self.crrl
 
     def load_csv(self, str fname):
-        return self.crrl.load_csv(fname)
+        return self.crrl.load_csv(fname.encode('UTF-8'))
 
     def quant(self, double f, double threshold):
         return self.crrl.quant(f, threshold)

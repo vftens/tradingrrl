@@ -14,3 +14,9 @@ Implementations of FX trading with RRL following ["Stock Trading with Recurrent 
 
 ## Reference
 - [What is Recurrent Reinforcement Learning?  (stackexchange question)]( http://stats.stackexchange.com/questions/57244/what-is-recurrent-reinforcement-learning)
+
+## Python 3 implementation in github.com/vftens/tradingrrl:
+- Installation:
+pip3 install deap
+
+## Go Reasoning Universalities
